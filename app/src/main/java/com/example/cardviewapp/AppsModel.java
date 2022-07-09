@@ -3,14 +3,14 @@ package com.example.cardviewapp;
 public class AppsModel {
 
     private String name;
-    private String numOfDownloads;
+    private int numOfDownloads;
     private int thumbnail;
 
     public AppsModel() {
 
     }
 
-    public AppsModel(String name, String numOfDownloads, int thumbnail) {
+    public AppsModel(String name, int numOfDownloads, int thumbnail) {
         this.name = name;
         this.numOfDownloads = numOfDownloads;
         this.thumbnail = thumbnail;
@@ -24,11 +24,11 @@ public class AppsModel {
         this.name = name;
     }
 
-    public String getNumOfDownloads() {
+    public int getNumOfDownloads() {
         return numOfDownloads;
     }
 
-    public void setNumOfDownloads(String numOfDownloads) {
+    public void setNumOfDownloads(int numOfDownloads) {
         this.numOfDownloads = numOfDownloads;
     }
 

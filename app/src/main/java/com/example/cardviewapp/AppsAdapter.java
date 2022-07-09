@@ -6,6 +6,7 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageView;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
@@ -65,6 +66,16 @@ public class AppsAdapter extends RecyclerView.Adapter<AppsAdapter.Viewholder> {
 
         // Displaying image using Glide Library
         Glide.with(context).load(model.getThumbnail()).into(holder.thumbnailImageView);
+
+        // ALL CLICKLISTENER METHODS GO HERE, NOT IN MAIN ACTIVITY
+        holder.itemView.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                // Display a toast message to the user
+                // Display the title of the card clicked
+                Toast.makeText(context, "You clicked: " + model.getName(), Toast.LENGTH_SHORT).show();
+            }
+        });
     }
 
     @Override

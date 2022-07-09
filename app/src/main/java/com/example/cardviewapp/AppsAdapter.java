@@ -61,7 +61,7 @@ public class AppsAdapter extends RecyclerView.Adapter<AppsAdapter.Viewholder> {
 
         //holder.thumbnailImageView.setImageResource(model.getThumbnail());
         holder.titleTextView.setText(model.getName());
-        holder.countTextView.setText(model.getName());
+        holder.countTextView.setText(model.getNumOfDownloads() + " Users");
 
         // Displaying image using Glide Library
         Glide.with(context).load(model.getThumbnail()).into(holder.thumbnailImageView);

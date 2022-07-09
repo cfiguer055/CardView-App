@@ -4,8 +4,9 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/Users/Carlos/AndroidStudioProjects/CardViewApp/app/src/main/res/layout-w1240dp/content_scrolling.xml" value="0.23025435073627845" />
+        <entry key="..\:/Users/Carlos/AndroidStudioProjects/CardViewApp/app/src/main/res/layout/activity_scrolling.xml" value="0.33" />
         <entry key="..\:/Users/Carlos/AndroidStudioProjects/CardViewApp/app/src/main/res/layout/card_app.xml" value="0.31354166666666666" />
-        <entry key="..\:/Users/Carlos/AndroidStudioProjects/CardViewApp/app/src/main/res/layout/content_scrolling.xml" value="0.1365079365079365" />
+        <entry key="..\:/Users/Carlos/AndroidStudioProjects/CardViewApp/app/src/main/res/layout/content_scrolling.xml" value="0.33" />
       </map>
     </option>
   </component>
